@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="сss/normalize.css">
+    <title>Каталог</title>
+</head>
+<body>
+
+    <header class="header-catalog">
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="header-nav-item">
+                    <a class="header-nav-logo" href="https://htmlacademy.ru/"></a>
+                    <img class="header-logo" src="" alt="Логотип">
+                </li>
+                <li class="header-nav-item">
+                    <a class="header-nav-title" href="#">Главная</a>
+                </li>
+                <li class="header-nav-item">
+                    <a class="header-nav-title" href="#">О Седоне</a>
+                </li>
+                <li class="header-nav-item">
+                    <a class="header-nav-title" href="#">Гостиницы</a>
+                </li>
+            </ul>
+            <ul class="header-nav-search">
+                <li class="header-nav-button">
+                    <a class="header-nav-link" href="#">
+                        <span class="visually-hidden">Поиск</span> <!-- виз. скрывающий класс, нужен ли? -->
+                    </a>
+                </li>
+                <li class="header-nav-button">
+                    <a class="header-nav-link" href="#">
+                        <span class="visually-hidden">Сердце</span> <!-- виз. скрывающий класс, нужен ли? -->
+                    </a>
+                </li>
+                <li class="header-nav-button">
+                    <a class="header-nav-link" href="#">Хочу сюда!</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="catalog">
+        <img class="catalog-background" src="" alt="background">
+        <div class="catalog-block">
+            <h1 class="catalog-title">Гостиницы Седоны</h1>
+            <img class="catalog-title-vector" src="" alt="vector">
+            <img class="catalog-title-vector" src="" alt="vector">
+            <span class="catalog-title-name">Гостиницы</span>
+        </div>
+        <section class="catalog-block-filter">
+            <p class="catalog-block-subtitle">Инфраструктура:</p>
+            <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <label class="catalog-filter-control">
+                    <input class="control-input" type="checkbox" name="Бассейн" checked>
+                    <span class="control-label">Бассейн</span>
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                    <label class="catalog-filter-control">
+                      <input class="control-input" type="checkbox" name="Парковка" checked>
+                      <span class="control-label">Парковка</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="catalog-filter-control">
+                      <input class="control-input" type="checkbox" name="Wi-Fi">
+                      <span class="control-label">Wi-Fi</span>
+                    </label>
+                </li>
+            </ul>
+        </section>
+        <section class="catalog-block-filter">
+            <p class="catalog-block-subtitle">Тип жилья:</p>
+            <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <label class="catalog-filter-control">
+                    <input class="control-input" type="radio" name="Бассейн" checked>
+                    <span class="control-label">Гостиница</span>
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                    <label class="catalog-filter-control">
+                      <input class="control-input" type="radio" name="Парковка">
+                      <span class="control-label">Мотель</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="catalog-filter-control">
+                      <input class="control-input" type="radio" name="Wi-Fi">
+                      <span class="control-label">Wi-Fi</span>
+                    </label>
+                </li>
+            </ul>
+        </section>
+        <section class="catalog-block-price">
+            <p class="catalog-block-subtitle">Стоимость, ₽:</p>
+                <label for="price">
+                    <input class="min-price" type="text" name="price" placeholder="от">
+                    <input class="max-price" type="text" name="price" placeholder="до">
+                    <button class="min-price-button" type="button" name="price">
+                        <span class="visually-hidden">Изменить минимальную цену</span> <!-- виз. скрывающий класс, нужен ли? -->
+                    </button>
+                    <button class="max-price-button" type="button" name="price">
+                        <span class="visually-hidden">Изменить максимальную цену</span> <!-- виз. скрывающий класс, нужен ли? -->
+                    </button>
+                    <form class="catalog-block-form">
+                        <input class="catalog-block-button-apply" type="reset">
+                        <input class="catalog-block-button-reset" type="submit">
+                    </form>
+                </label>
+        </section>
+    </main>
+
+    <footer class="footer-catalog">
+        <ul class="footer-list">
+            <li class="footer-social">
+                <a class="footer-social-icon" href="https://twitter.com/htmlacademy_ru"></a>
+            </li>
+            <li class="footer-social">
+                <a class="footer-social-icon" href="https://www.facebook.com/htmlacademy"></a>
+            </li>
+            <li class="footer-social">
+                <a class="footer-social-icon" href="https://www.youtube.com/c/HTMLAcademyRUS"></a>
+            </li>
+        </ul>
+        <section class="footer-connection">
+            <a class="footer-phone" href="tel:+7 (812) 812-12-12">+7 (812) 812-12-12</a>
+        </section>
+        <section class="footer-icon">
+            <a class="footer-main-logo" href="https://htmlacademy.ru/"></a>
+            <img class="footer-logo" src="" alt="Логотип">
+        </section>
+    </footer>
+    
+</body>
+</html>
