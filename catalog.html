@@ -141,9 +141,6 @@
             </div>
         </section>
 
-        <br>
-        <br>
-
         <section class="catalog-main">
             <div class="catalog-main-block">
                 <img class="catalog-main-image" src="" alt="Картинка №1">
@@ -169,8 +166,6 @@
             </div>
         </section>
 
-        <br>
-
         <section class="catalog-main">
             <div class="catalog-main-block">
                 <img class="catalog-main-image" src="" alt="Картинка №2">
@@ -195,8 +190,6 @@
                 </div>
             </div>
         </section>
-
-        <br>
         
         <section class="catalog-main">
             <div class="catalog-main-block">
@@ -222,8 +215,6 @@
                 </div>
             </div>
         </section>
-
-        <br>
         
         <section class="catalog-main">
             <div class="catalog-main-block">
@@ -254,6 +245,39 @@
             <span class="visually-hidden">Линия сверху</span> <!-- виз. скрывающий класс, нужен ли? -->
             <button class="catalog-add-button" type="button">Загрузить ещё</button>
             <span class="visually-hidden">Линия внизу</span> <!-- виз. скрывающий класс, нужен ли? -->
+        </section>
+
+        <section class="main-pagination">
+            <ul class="main-pagination-items">
+                <li class="main-pagination-list">
+                    <a class="main-pagination-item active" href="#">1</a>
+                    <a class="main-pagination-item" href="#">2</a>
+                    <a class="main-pagination-item" href="#">3</a>
+                    <a class="main-pagination-item" href="#">4</a>
+                    <a class="main-pagination-item" href="#">5</a>
+                    <a class="main-pagination-item" href="#">...</a>
+                    <a class="main-pagination-item" href="#">10</a>
+                </li>
+            </ul>
+            <span class="main-pagination-quantity">Гостиниц на странице:</span>
+            <select class="main-pagination-control">
+                <option value="quantity1">1</option>
+                <option value="quantity2">2</option>
+                <option value="quantity3">3</option>
+            </select>
+        </section>
+
+        <section class="main-mailing">
+            <h3 class="main-mailing-title">Подпишитесь на рассылку</h3>
+            <span class="main-mailing-text">Только полезная информация и никакого спама,<br>
+                честное бойскаутское!</span>
+            <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
+                <p class="appointment-form-name">
+                  <label for="appointment-email"></label>
+                    <input type="email" id="appointment-email" name="appointment-email" placeholder="Ваш e-mail">
+                    <button class="subscribe-botton" type="submit">Подписаться</button>
+                </p>
+                </form>
         </section>
 
     </main>
